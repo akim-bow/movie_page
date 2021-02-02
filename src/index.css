@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +12,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  padding: 20px;
+}
+
+h1 {
+  color: #000;
+}
+
+.filter__by-genre select {
+  /*background: #b23cfd;*/
+  color: #b23cfd;
+  font-weight: 500;
+}
+
+.filter__by-genre select:focus {
+  outline-color: #b23cfd;
+}
+
+.filter__by-genre select option {
+  font-weight: 500;
+}
+
+
+.filter__by-genre select option:nth-child(1) {
+  color: black;
+}
+
+.film-card__add-favorite {
+  cursor: pointer;
+}
+
+.film-card__rating {
+  position: absolute;
+  display: inline-block;
+  top: 5px;
+  left: -5px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 7px;
+  border-radius: 2px;
+  background: #3bb33b;
+}
+
+
